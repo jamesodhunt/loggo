@@ -5,3 +5,8 @@ export DH_OPTIONS
 export DH_GOPKG := github.com/juju/loggo
 %:
 	dh $@ --buildsystem=golang --with=golang
+
+# remove the example binary (but retain the source)
+override_dh_auto_install:
+	dh_auto_install -O--buildsystem=golang
+	rm -rf ${CURDIR}/debian/tmp/usr/bin/example
