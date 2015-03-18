@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_OPTIONS
+export DH_GOPKG := github.com/juju/loggo.git
+%:
+	dh $@ --buildsystem=golang --with=golang

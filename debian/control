@@ -1,0 +1,18 @@
+Source: golang-juju-loggo
+Section: devel
+Priority: extra
+Maintainer: James Hunt <james.hunt@canonical.com>
+Build-Depends:
+ debhelper (>= 9),
+ dh-golang,
+ golang-go,
+ golang-gocheck-dev,
+Standards-Version: 3.9.5
+Homepage: https://github.com/juju/loggo.git
+
+Package: golang-juju-loggo-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: An alternative to the standard Go library log package
+ This package provides an alternative (and not compatible) logger to the
+ standard Go "log" package.

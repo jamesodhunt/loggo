@@ -1,0 +1,5 @@
+golang-juju-loggo (0.0~git20150318-1) unstable; urgency=low
+
+  * Initial release (Closes: #XXX).
+
+ -- James Hunt <james.hunt@ubuntu.com>  Wed, 18 Mar 2015 08:48:49 +0000
