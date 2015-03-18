@@ -7,7 +7,7 @@ Build-Depends:
  dh-golang,
  golang-go,
  golang-check.v1-dev,
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://github.com/juju/loggo.git
 
 Package: golang-juju-loggo-dev
