@@ -1,4 +1,4 @@
-golang-juju-loggo (0.0~git20150318-1) unstable; urgency=low
+golang-juju-loggo (0.0~git20150318-1~ppa1) vivid; urgency=low
 
   * Initial release (Closes: #XXX).
 
